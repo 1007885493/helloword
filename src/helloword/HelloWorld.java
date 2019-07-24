@@ -16,6 +16,13 @@ public class HelloWorld {
 				System.out.println("I'am sorry , Brother FeiFan.");
 			}
 			
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
 		}
 
 	}
